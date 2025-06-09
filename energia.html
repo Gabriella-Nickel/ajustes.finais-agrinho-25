@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Energia Rural - Agrinho 2025</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to bottom, #e0f8e0, #ffffff);
+      color: #2d572c;
+      animation: fadeIn 2s ease-in-out;
+    }
+
+    header {
+      background-color: #2d572c;
+      color: white;
+      padding: 30px;
+      text-align: center;
+      animation: slideDown 1.5s ease-out;
+    }
+
+    section {
+      margin: 40px auto;
+      padding: 30px;
+      background-color: #f4fff4;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      animation: fadeInUp 1s ease-in-out;
+    }
+
+    footer {
+      background-color: #2d572c;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+
+    @keyframes slideDown {
+      from { transform: translateY(-50px); opacity: 0; }
+      to { transform: translateY(0); opacity: 1; }
+    }
+
+    @keyframes fadeInUp {
+      from { transform: translateY(30px); opacity: 0; }
+      to { transform: translateY(0); opacity: 1; }
+    }
+
+    .img-lateral {
+      max-width: 300px;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    @media (max-width: 768px) {
+      .img-lateral {
+        margin-top: 20px;
+        max-width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Energia Rural</h1>
+    <p>Projeto Agrinho 2025</p>
+  </header>
+
+  <main class="container mt-5">
+    <!-- Primeira seção com imagem ao lado -->
+    <div class="row align-items-center mb-5">
+      <div class="col-md-8">
+        <section class="mb-0">
+          <h2 class="mb-3">O que é energia rural?</h2>
+          <p>Energia rural é a eletricidade utilizada em áreas do campo, essencial para o funcionamento de propriedades agrícolas, agroindústrias, sistemas de irrigação e residências rurais. Ela é uma peça-chave para o desenvolvimento econômico e social das comunidades do meio rural.</p>
+          <p>O acesso à energia elétrica permite melhorar a produtividade, conservar alimentos, automatizar processos e ampliar a qualidade de vida no campo.</p>
+        </section>
+      </div>
+      <div class="col-md-4 text-center">
+        <img src="./image/energia.jpg" alt="Imagem representando a energia" class="img-fluid img-lateral">
+      </div>
+    </div>
+
+    <!-- Demais seções -->
+    <section class="mb-5">
+      <h2 class="mb-3">Fontes de energia no meio rural</h2>
+      <p>O campo pode se beneficiar de diferentes fontes de energia:</p>
+      <ul>
+        <li><strong>Energia solar:</strong> ideal para regiões distantes da rede elétrica, utilizada para bombear água, iluminar áreas e abastecer residências.</li>
+        <li><strong>Biomassa e biogás:</strong> aproveitamento de resíduos orgânicos e dejetos animais para gerar energia limpa.</li>
+        <li><strong>Energia hidráulica:</strong> pequenas centrais hidrelétricas em propriedades próximas a rios ou córregos.</li>
+        <li><strong>Energia elétrica convencional:</strong> fornecida pelas concessionárias, conectada à rede pública.</li>
+      </ul>
+      <p>Fontes renováveis têm ganhado espaço por serem mais sustentáveis e por ajudarem a reduzir custos a longo prazo.</p>
+    </section>
+
+    <section class="mb-5">
+      <h2 class="mb-3">Importância da energia para o produtor</h2>
+      <p>O uso da energia rural impacta diretamente:</p>
+      <ul>
+        <li>No aumento da produtividade agrícola e pecuária;</li>
+        <li>Na preservação de alimentos e produtos agroindustriais;</li>
+        <li>Na mecanização de processos como ordenha, irrigação e moagem;</li>
+        <li>No conforto e segurança das famílias no campo.</li>
+      </ul>
+      <p>Com energia de qualidade, o produtor pode investir mais em tecnologia, aumentar sua renda e melhorar sua qualidade de vida.</p>
+    </section>
+
+    <section class="mb-5">
+      <h2 class="mb-3">Desafios e soluções</h2>
+      <p>Muitos produtores ainda enfrentam dificuldades como:</p>
+      <ul>
+        <li>Falta de acesso à energia elétrica de qualidade;</li>
+        <li>Custos altos de instalação e manutenção;</li>
+        <li>Distâncias grandes até a rede pública;</li>
+        <li>Falta de apoio técnico e informação.</li>
+      </ul>
+      <p>Para superar esses desafios, é fundamental o apoio de políticas públicas, programas de incentivo à energia renovável e capacitação técnica dos produtores rurais.</p>
+    </section>
+
+    <section class="mb-5">
+      <h2 class="mb-3">Energia rural e sustentabilidade</h2>
+      <p>A energia rural, quando bem utilizada, promove sustentabilidade e desenvolvimento. Com ela, é possível produzir mais com menos impacto, utilizar fontes renováveis e tornar o campo um exemplo de inovação e respeito ao meio ambiente.</p>
+      <p>O Agrinho 2025 reforça a importância de investir em soluções energéticas sustentáveis para o meio rural, garantindo um futuro mais justo, eficiente e equilibrado para todos.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 - Projeto Agrinho | Energia para um futuro sustentável</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
